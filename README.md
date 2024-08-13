@@ -9,6 +9,14 @@ Paper suggestions, including self-promotion, are more than welcome.
 
 Proposes Scaffold prompting that scaffolds coordinates to promote vision-language coordination. Specifically, Scaffold overlays a dot matrix within the image as visual information anchors and leverages multi-dimensional coordinates as textual positional references. Extensive experiments on a wide range of challenging vision-language tasks demonstrate the superiority of Scaffold over GPT-4V with the textual CoT prompting.
 
+[DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM](https://arxiv.org/abs/2403.12488)
+A detection prompting toolkit inspired by high-precision detection priors and a new Chain-of-Thought to implement these prompts. Specifically, the prompts in the toolkit are designed to guide the MLLM to focus on regional information (e.g., zooming in), read coordinates according to measure standards (e.g., overlaying rulers and compasses), and infer from the contextual information (e.g., overlaying scene graphs). Building upon these tools, the new detection chain-of-thought can automatically decompose the task into simple subtasks, diagnose the predictions, and plan for progressive box refinements. 
+
+GPT-4V with DetToolChain improves state-of-the-art object detectors
+- +21.5% AP50 on MS COCO Novel class set for open-vocabulary detection, 
+- +24.23% Acc on RefCOCO val set for zero-shot referring expression comprehension, 
+- +14.5% AP on D-cube describe object detection FULL setting.
+
 
 [Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models](https://arxiv.org/abs/2406.09403)
 
