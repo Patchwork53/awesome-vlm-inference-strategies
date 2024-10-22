@@ -29,4 +29,5 @@ Introduces Contrastive Region Guidance (CRG), a training-free guidance method th
 
 
 [Enhancing Large Vision Language Models with Self-Training on Image Comprehension](https://arxiv.org/pdf/2405.19716)
+
 Although the paper is mainly about semi-supervised training, the authors find - "First, based on the descriptioninfused fine-tuning stage that enhances the model’s reasoning ability with self-generated description, we show that further letting the model describe the image before responding to a query provides further improved reasoning capability. This results in a notable improvement of 2.8% on ScienceQA and 1.1% on average as compared to direct responses to queries (Table 2)."
