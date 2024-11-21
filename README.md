@@ -4,8 +4,10 @@ A curated list of inference strategies and algorithms that boost Vision Language
 Paper suggestions, including self-promotion, are more than welcome.
 
 # Papers
-Nov 24
+[Nov 24]
+<be>
 [LLaVA-o1/LLaVA-Cot](https://arxiv.org/abs/2411.10440v1)
+
 A llama-3.2-vision model trained with 100k examples to break down vision-language tasks into 4 discrete steps: summarization, captioning, reasoning, and conclusion. At inference time, each step can be sampled multiple times and the model itself is prompted to choose (For example, between two reasoning chains it generated).  LLaVA-o1 outperforms the base llama-3.2-11b model by 8.9% on a wide range of multimodal reasoning benchmarks.
 
 [Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-Modal Models](https://arxiv.org/abs/2402.12058)
